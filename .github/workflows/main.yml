@@ -7,9 +7,9 @@ on:
 
 jobs:
   deploy:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-      -name:print my name
+      -name: print my name
        run:|
          echo "Shreekrupa"
          echo "GitHub"
