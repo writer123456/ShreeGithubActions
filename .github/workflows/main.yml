@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Checking out code on Runner
-      uses: appleboy/ssh-actions/checkout@v4
+      uses: actions/checkout@v4
 
     - name: login to EC2
       uses: appleboy/ssh-action@v1.0.3
