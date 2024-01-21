@@ -15,7 +15,7 @@ jobs:
          echo "Shreekrupa"
          echo "GitHub"
      
-     -name: Current Folder
+    -name: Current Folder
        run:|
          pwd
       
